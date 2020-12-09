@@ -4,7 +4,9 @@ React.js, React Chart.js 2, Material UI, CSS modules, Axios, External API for co
 
 ### Features 
 - [x] React.js Framework
-- [x] Customized Chart.js to display data from external api on a line graph
+- [x] Axios to make HTTP requests to external api
+- [x] Customized Chart.js to display data on a line graph
+- [x] Countup for data counting animation
 - [x] Dynamically generating covid-19 data from different countries using a select form tool
 - [x] CSS modules to customize each component with Material UI
 
