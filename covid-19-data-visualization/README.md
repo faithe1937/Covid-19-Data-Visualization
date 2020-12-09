@@ -16,13 +16,13 @@ $ git clone
 $ cd into project directory
 
 $ npm install
-
 $ npm start
 ```
 
 ### Install dependencies
 
-```npm install --save axios @material-ui/core react-chartjs-2 react-countup classnames
+```sh
+$ npm install --save axios @material-ui/core react-chartjs-2 react-countup classnames
 ```
 
 ### Documentation
