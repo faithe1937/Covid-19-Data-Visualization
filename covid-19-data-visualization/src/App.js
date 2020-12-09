@@ -1,15 +1,30 @@
 import React from 'react';
-import {Cards, Chart, Country} from './components';
-import styles from './App.module';
+import styles from './App.module.css';
+import { Cards, Chart, Country } from './components';
+import { fetchData } from './api'
+
 
 class App extends React.Component {
+
+  state = {
+    data: {},
+  }
+
+  async componentDidMount() {
+    const data = await fetchData();
+
+    this.setState({ data });
+    console.log(data)
+  }
+
   render() {
+    const { data } = this.state
+
     return (
-//insure css doesn't conflict with other css files
-    <div className={styles.container}>
-      <Cards />
-      <Country />
-      <Chart /> 
+      <div className={styles.container}>
+        <Cards data={data} />
+        <Country />
+        <Chart />
       </div>
     );
   }
