@@ -1,6 +1,6 @@
 # Project : covid-19 data visualization chart
 
-React.js, React Chart.js 2, Material UI, CSS modules, Axios, External API for covid-19 data  
+Extract covid-19 data to display global values of infected, recovered, and death cases.  Choose a country using the select tab to display a specific country on the graph.  
 
 ### Features 
 - [x] React.js Framework
