@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 const Chart = memo(() => {
     return (
         <div>
-            country
+            chart
         </div>
     );
 });
